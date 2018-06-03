@@ -3,8 +3,8 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 // Second Approach
-var chocolateBars = new Array();
-chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+// var chocolateBars = new Array();
+// chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 // Confirm Array was created. 
 console.log(chocolateBars);
