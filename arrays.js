@@ -40,7 +40,9 @@ function addElementToEndOfArray(array, elem){
 
 function destructivelyAddElementToEndOfArray(array, elem){
     array.push(elem);
+    return array;
 }
+
 addElementToEndOfArray(array1, "seven");
 destructivelyAddElementToEndOfArray(array2, 8);
 
