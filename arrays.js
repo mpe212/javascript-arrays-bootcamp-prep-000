@@ -58,7 +58,7 @@ console.log(accessElementInArray(example, 1));
 
 //TODO 5: 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-array.shift();
+  array.shift();
 console.log(array);
 }
 
