@@ -68,8 +68,8 @@ console.log(destructivelyRemoveElementFromBeginningOfArray(example));
 
 //TODO 6:
 function removeElementFromBeginningOfArray(array){
-  array.slice(1);
-  return array;
+  array2 = array.slice(1);
+  return array2;
 }
 
 var example = ["horse","cat", "dog", "fish", "bird", "dragon"];
