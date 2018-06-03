@@ -59,7 +59,7 @@ console.log(accessElementInArray(example, 1));
 //TODO 5: 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift();
-console.log(array);
+  console.log(array);
 }
 
 // //Test that function works:
@@ -68,7 +68,7 @@ console.log(destructivelyRemoveElementFromBeginningOfArray(example));
 
 //TODO 6:
 function removeElementFromBeginningOfArray(array){
-  console.log(array.slice(1));
+  array.slice(1);
   return array;
 }
 
